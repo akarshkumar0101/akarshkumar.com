@@ -66,13 +66,13 @@
         <h1 class="mb-0">Akarsh
           <span class="text-primary">Kumar</span>
         </h1>
-        <div class="subheading mb-5">3000-3100 Ellen Street · Irving, TX 75062 · (479) 236-Four-6-nine-2 ·
+        <div class="subheading mb-5">Irving, TX 75062 · (479) 236-Four-6-nine-2 ·
           <a href="mailto:name@email.com">akarshkumar0101@gmail.com</a>
         </div>
         <p>
-          Hi! My name is Akarsh and I'm a programmer and physics/math researcher aspiring to dive heavily into the fields of machine learning and particle physics. 
+          Hey! My name is Akarsh and I'm a programmer aspiring to dive heavily into the fields of computer engineering, machine learning, and, later on in my research career, theoretical physics and mathematics. 
           <br><br>
-          I am currently a Computer Engineering and Physics major at UT Austin in the class of 2022. I hope to pursue an education, research, and career in computer science, physics, and math. I immerse myself in these fields whenever possible because of my curiosity with them. Although they may seem like completely different topics, I see them as different aspects of the same entity. I see math as a universal native language of the universe, physics as a real implementation of mathematical systems and ideas, and computer science as a convientant tool to explore mathematical realms further (as well as introduce new math concepts like complexity theory).  I want to pursue a PhD in one or two of these subjects and help our species understand the world better.
+          I am currently a Computer Engineering and Physics major at UT Austin in the class of 2022. I hope to pursue an education, research, and career in computer science, physics, and math. I immerse myself in these fields whenever possible driven by my curiosity with them. Although they may seem like completely different topics, they all try and describe the underlying nature of the universe in different ways. I see math as a universal native language of the universe, physics as a real implementation of mathematical systems and ideas, and computer science as a convientant tool to explore mathematical realms further (as well as introduce new math concepts like complexity theory). I want to pursue a PhD in one or two of these subjects and help our species understand the world better.
           <br><br>
           Born in India, my family moved to the United States in 2005 where we lived in Arkansas, Florida, Iowa, and now Texas. I went to the Arkansas School for Mathematics, Sciences, and the Arts, where I discovered my love for computer science, physics, and math through classes like Algorithms and Data Structures, Modern Physics, Astrophysics, and Differential Equations. My dad is a civil engineer in the Irving area, while my mom is a college professor. My 22 year-old brother recently graduated with a degree in computer engineering from the University of Toronto and is now attempting to start his own company.
           <br><br>
@@ -81,7 +81,7 @@
           <p>
             Downloads:
             <br>
-            <a href="/downloads/comp engineer resume.pdf">Akarsh Kumar Resume</a>
+            <a href="/downloads/Akarsh_Kumar_Resume.pdf">Akarsh Kumar Resume</a>
             <br>
           </p>
 
@@ -137,6 +137,53 @@
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
 
+          <!-- NEAT Project -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <!-- Title -->
+              <h3 class="mb-0">Neuroevolution of Augmenting Topologies Project</h3>
+              <!-- Category -->
+              <div class="subheading mb-3">Personal Programming Project</div>
+              
+              <!-- Description -->
+              <p>
+                <strong>Description: </strong><br>
+                In the summer of 2019, I wrote a program that uses genetic algorithms to train and evolve Neural Networks.
+                <br><br>
+                Genetic Algorithms are a form of evolutionary computing that starts out with a lot of different random solutions to a problem, called "organisms", and mutates and breeds the best of those solutions to produce the next generation. Over a large amount of generations, the best solution/organism will arise in the population. <br>
+                This is a great way to search through an optimzation landscape: by searching and mixing the most promising solutions until an optimum is found. In a large number of problems (like the traveling salesman problem and others illustrated below), genetic algorithms will converge on a handful descent solution relatively quickly.
+                <br><br>
+                Neuroevolution is a form of genetic algorithms where the solutions/organisms are "DNAs" (information) to create a neural network, or to simplify are neural networks. Over numerous generations, the NN's gain complexity and neurons. Mutating involves either growing the network and/or changing the weights associated with the connections. Breeding neural networks involves an complex process with innovation numbers and keep track of the evolutionary history of the NNs in order to produce a clear offspring of two neural networks. 
+                <br><br>
+                This process is called Neuroevolution of Augmenting Topologies and was invented at UT Austin by Neuroevolution researchers. This is much different from the classical way to train NNs with gradient descent because you don't need to know the output for a given input of the neural network; you only need to know how "good" a certain NN is (the fitness function).
+                <br><br>
+                I implemented this from scratch in Java and trained to find a model for Flappy Bird the game.
+
+              </p>
+
+              <strong>Challenges: </strong><br>
+              <p>
+                Reading and understanding research paper, intense mathematical calculations, optimization problem, abstraction for any dataset, visual display.
+              </p>
+              
+              <!-- Images -->
+              <img src="img/neuroevolution species.png" height="200px" width="300px">
+              <img src="img/neuroevolution fitness.png" height="200px" width="300px">
+              <center><img src="img/neuroevolution networks.png" height="300px" width="450px"></center>
+              <br>
+              <br>
+              <a href="/downloads/neat_paper.pdf">Neuroevolution Official Research Paper</a>
+              <br>
+              <a href="https://github.com/akarshkumar0101/LibAK-Evolution">
+                See my source code
+              </a>
+
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2019</span>
+            </div>
+          </div>
+
           <!-- Machine Learning Project -->
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -160,8 +207,8 @@
               <img src="img/neural network.png" height="270px" width="500px">
               <br>
               <br>
-              <a href="https://github.com/akarshkumar0101/LibAK">
-                Get source
+              <a href="https://github.com/akarshkumar0101/LibAK-ML">
+                See my source code
               </a>
 
             </div>
@@ -169,6 +216,50 @@
               <span class="text-primary">2018</span>
             </div>
           </div>
+
+          <!-- Genetic Algorithms Project -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <!-- Title -->
+              <h3 class="mb-0">Genetic Algorithms</h3>
+              <!-- Category -->
+              <div class="subheading mb-3">Personal Programming Project</div>
+              
+              <!-- Description -->
+              <p>
+                <strong>Description: </strong><br>
+                During the 2018-2019 school year, I learned about and instantly got fascinated by genetic algorithms. I wrote my own implementation in Java.
+                <br><br>
+                Genetic Algorithms are a form of evolutionary computing that starts out with a lot of different random solutions to a problem, called "organisms", and mutates and breeds the best of those solutions to produce the next generation. Over a large amount of generations, the best solution/organism will arise in the population. <br>
+                This is a great way to search through an optimzation landscape: by searching and mixing the most promising solutions until an optimum is found. In a large number of problems (like the traveling salesman problem and others illustrated below), genetic algorithms will converge on a handful descent solution relatively quickly.
+                <br><br>
+                I first used my genetic algorithm to find an optimal solution to the traveling salesman problem. I arranged a solution as being a permutation of the indexes of the cities. After mutating and breeding, it found a very good solution. (The fitness function was negative the total distance)
+                <br><br>
+                The second instance of my genetic algorithm was used during a hackathon (TAMUHack) to find the optimal keyboard layout to increase typing speed and reduce typing effort. I used genetypes depecting the permutation and ordering of keys on the keyboard and had a fitness function that evaluated how much "work" it took to type out a whole book using that keyboard solution. After many generations, it found an optimal keyboard layout.
+                <br><br>
+                I implemented this from scratch in Java.
+
+              </p>
+
+              <strong>Challenges: </strong><br>
+              <p>
+                Reading and understanding research paper, optimization problem, abstraction for any dataset, visual display.
+              </p>
+              
+              <!-- Images -->
+              <img src="img/neural networkf.png" height="270px" width="500px">
+              <br>
+              <br>
+              <a href="https://github.com/akarshkumar0101/LibAK-Evolution">
+                See my source code
+              </a>
+
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2019</span>
+            </div>
+          </div>
+
           <!-- Graphing Calculator -->
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -190,8 +281,8 @@
               <img src="img/graphing_calc_1.png" height="270px" width="500px">
               <br>
               <br>
-              <a href="https://github.com/akarshkumar0101/LibAK">
-                Get source
+              <a href="https://github.com/akarshkumar0101/LibAK-CAS">
+                See my source code
               </a>
             </div>
             
@@ -383,7 +474,7 @@
               </p>
 
               <a href="https://github.com/akarshkumar0101/LibAK">
-                Get LibAK source
+                See my source code
               </a>
               <br>
               <br>
@@ -535,35 +626,50 @@
               <div class="subheading mb-3">Computer Engineering and Physics major</div>
               
               <!-- GPA  -->
-              <p><b>STEM GPA: 4.00</b></p>
+              <p><font color="#cc5500"><h4 class="mb-0">Major GPA: 4.00</h4></font></p>
 
               <!-- Description: -->
-              <div><b>Cool classes:</b>
+              <div><h5>Cool classes:</h5>
+                EE 360C - <b>Algorithms</b> (Current)
                 <br>
-                EE 306 - Intro to Computing with LC-3 simulator
+                EE 422C - <b>Software and Design II</b> (Current)
                 <br>
-                EE 302 - Intro to Electrical Engineering
+                EE 461S - <b>Operating Systems</b> (Current)
+                <br>
+                EE 312 - <b>Software and Design I</b>
+                <br>
+                EE 306 - Computing with LC-3 simulator
+                <br>
+                EE 319K - Embedded Systems
+                <br>
+
+
+                <br>
+                M 325K - <b>Discrete Math</b>
+                <br>
+                M 340L - <b>Matrices</b>
                 <br>
                 M 427J - Differential Equations with Linear Algebra
                 <br>
-                <b>Current classes:</b>
-                <br>
-                EE 319K - Intro to Embedded Systems
-                <br>
-                EE 312 - Intro to Software and Design
-                <br>
-                EE 411 - Circuit Theory
-                <br>
-                M 340L - Matrices
-                <br>
-                M 325K - Discrete Math
+                M 351K - Probability (Current)
                 <br>
                 M 427L - Vector Calculus
                 <br>
 
                 <br>
+                EE 313 - Linear Systems and Signals (Current)
+                <br>
+                EE 411 - Circuit Theory
+                <br>
+                EE 302 - Intro to Electrical Engineering
+                <br>
+                PHY 303K - Physics for Scientists and Engineers, Mechanics
+                <br>
+
+
+                
               </div>
-              
+              <br><br>
               
               <a href="/downloads/ut grade report.pdf">UT Transcript</a>
               
@@ -577,14 +683,18 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Arkansas School of Math, Science, and the Arts (Class of 2018)</h3>
               <div class="subheading mb-3">High School Diploma</div>
-              ACT: 35, SAT: 1460, SAT Subject: 800 on Math and Physics
 
-              
               <!-- GPA  -->
-              <p><b>Weighted GPA: 4.25</b></p>
+              <p><font color="#cc5500"><h4 class="mb-0">Weighted GPA: 4.25</h4></font>
+              <font color="#cc5500"><h4 class="mb-0">ACT: 35</h4></font>
+              SAT: 1460, SAT Subject: 800 on Math and Physics</p>
+              <br>
+              
+              
+              
+
               <!-- Description: -->
-              <div><b>Cool classes:</b>
-                <br>
+              <div><h5>Cool classes:</h5>
                 <i>Math</i> - AP Cal AB, Cal 2, Cal 3, Differential Equations, Discrete Math, Number Theory
                 <br>
                 <i>Physics</i> - Physics for Scientists & Engineers 1 and 2, Modern Physics, Astrophysics
@@ -593,8 +703,8 @@
                 <br>
               </div>
               <br>
-              <b>Cool clubs:</b>
-              <br>
+
+              <h5>Cool clubs:</h5>
               <i>Community Leader (CL)</i> - alonside 11 other CL's, our job was to support our peers living on the highschool campus academically and emotionally and look out for their general mental health.
               <br>
               <i>Computer Science club </i> - as part of the computer science club we discussed the lates fields of computer science and went to several computer programming competitions (won UARK highschool coding competition, biggest coding comp in Arkansas, twice)
